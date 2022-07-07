@@ -94,8 +94,7 @@ class PARIKernel(Kernel):
     implementation_version = PARIKernel.__version__
     language = 'GP'
     language_version = pari_short_version()
-    #language_info = dict(mimetype='text/x-pari-gp', name='gp', file_extension='.gp')
-    language_info = dict(mimetype='text/x-csrc', name='gp', file_extension='.gp')
+    language_info = dict(mimetype='text/x-pari-gp', name='gp', file_extension='.gp')
     banner = "PARI/GP kernel"
 
     def __init__(self, *args, **kwds):
