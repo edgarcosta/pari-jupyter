@@ -4,7 +4,7 @@ define([
   'base/js/namespace',
   './gp'
 ], function (Jupyter) {
-  "use strict";
+  //"use strict";
 
   return {
     load_ipython_extension: function () {

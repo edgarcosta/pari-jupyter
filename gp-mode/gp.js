@@ -2,7 +2,7 @@ define([
   'codemirror/lib/codemirror',
   'codemirror/addon/mode/simple'
 ], function (CodeMirror) {
-  'use strict';
+  //'use strict';
 
   function createBuiltinRegularExpression(words) {
     return new RegExp(words.join('(?!\\\\[(),.]?|[\\w@]+)|') + '(?!\\\\[(),.]?|[\\w@]+)', 'm');
